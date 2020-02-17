@@ -192,6 +192,7 @@ def user_stats(df):
 
 
 def display_info():
+    """This function displays a table that will help the user make choices"""
     print('CITY'.ljust(30), 'MONTHS'.ljust(30), 'DAYS OF THE WEEK'.ljust(30))
     print('-----'.ljust(30), '-------'.ljust(30), '-----------------'.ljust(30))
     print('1. Chicago'.ljust(30), '1. January'.ljust(30), '1. Monday'.ljust(30))
