@@ -8,6 +8,10 @@ Explore US Bikeshare Data
 ### Description
 Describe what your project is about and what it does
 
+The project is all about the exploration of data related to  bike share systems for three major cities in the United States-Chicago, New York, and Washington.
+
+It uses python to explore how the bike-sharing systems are used.
+
 ### Files used
 Include the files used
 
