@@ -15,7 +15,7 @@ def get_filters():
     Asks user to specify a city, month, and day within the valid dates to analyze.
 
     Returns:
-        (str) city - name of the city to analyze
+        (str) city - name of the city 
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
@@ -113,7 +113,7 @@ def time_stats(df):
 
 
 def station_stats(df):
-    """Displays statistics on the most popular stations and trip."""
+    """Displays statistics for the most popular stations and trip."""
 
     print('\nCalculating The Most Popular Stations and Trip...\n')
     start_time = time.time()
