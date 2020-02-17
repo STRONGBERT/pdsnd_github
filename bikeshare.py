@@ -362,6 +362,7 @@ def seconds_to_HMS_str(total_seconds):
 
 
 def processing_time(start_time):
+    """Determines the time for execution for a block of code"""
     duration = round((time.time() - start_time), 3)
     print(f'[processing time: {duration} seconds]'.rjust(70))
 
